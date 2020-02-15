@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function fecha()
+      {
+        var obj_fecha=new Date();
+        var completo=obj_fecha.toGMTString();
+
+        var hora=obj_fecha.getHours();
+        var minuto=obj_fecha.getMinutes();
+        var segundo=obj_fecha.getSeconds();
+
+        var dia=obj_fecha.getDate();
+        var mes=obj_fecha.getMonth();
+        var anis=obj_fecha.getYear();
+
+        alert("La hora es: "+hora+": "+minuto+": "+segundo);
+        alert("La fecha es: "+dia+"/"+mes+"/"+anis);
+        alert(completo);
+      }
+    </script>
+  </head>
+  <body onload=fecha();>
+
+  </body>
+</html>

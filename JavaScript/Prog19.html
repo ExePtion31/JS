@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function informal()
+      {
+          var v1;
+          var nombre;
+          var cpu;
+          var sistema;
+
+          v1=window.open("","v","width=300 height=150");
+          v1.document.bgColor="gray";
+
+          nombre=navigator.appName;
+          cpu=navigator.cpuClass;
+          sistema=navigator.platform;
+
+          v1.document.writeln("Navegador: "+nombre);
+          v1.document.writeln("Sistema: "+sistema);
+          v1.document.write("Micro: "+cpu);
+      }
+    </script>
+  </head>
+  <body>
+    <input type="button" name="" value="Info" onclick=informal();>
+  </body>
+</html>

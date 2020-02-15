@@ -1,0 +1,129 @@
+body{
+  background-color: #000;
+}
+
+.fondo{
+  position: relative;
+  bottom: 20px;
+  right: .57%;
+  background-image: url(../Imagenes/fondo.jpg);
+  background-size: cover;
+  width: 101.2%;
+  height: 900px;
+}
+
+/*------------------ETIQUETAS--------------------------*/
+hr{
+  position: relative;
+  color: #fff;
+  width: 90%;
+}
+
+li{
+  margin-top: 15%;
+  position: relative;
+  color: #0C850C;
+}
+
+p{
+  position: relative;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #027206;
+}
+/*-------------------------------------------------------------------*/
+
+
+
+/*---------------PIE DE PÁGINA---------------------------------*/
+.piedepag{
+  border-top: 1px groove #0C850C;
+  border-bottom: 1px groove #0C850C;
+  position: relative;
+  bottom: 20%;
+  right: .57%;
+  background-color: #2D2C2C;
+  width: 101.2%;
+  height: 400px;
+}
+
+
+/*------------------DIVISION PRODUCTOS----------------------------*/
+.productos_div{
+  display: inline-block;
+  position: relative;
+  top: 3%;
+  left: 1.5%;
+  width: 25%;
+  height: 370px;
+  background-color: #2D2C2C;
+}
+
+.productos_div li{
+  right: 5%;
+}
+
+.hr1{
+  right: 1%;
+}
+
+.productos_text{
+ left: 30%;
+ top: 2%;
+}
+/*-------------------------------------------------------------------*/
+
+
+/*------------------DIVISION HORARIOS----------------------------*/
+
+.horarios_div{
+  display: inline-block;
+  position: relative;
+  bottom: 12%;
+  left: 13%;
+  width: 25%;
+  height: 370px;
+  background-color: #2D2C2C;
+}
+
+.horarios_div li{
+  right: 5%;
+}
+
+.horarios_text{
+  left: 30%;
+  top: 2%;
+}
+
+/*-------------------------------------------------------------------*/
+
+/*------------------DIVISION TRABAJO----------------------------*/
+.empleo_div{
+  display: inline-block;
+  position: relative;
+  bottom: 3%;
+  left: 23%;
+  width: 25%;
+  height: 370px;
+  background-color: #2D2C2C;
+}
+
+.empleo_div li{
+  right: 6%;
+}
+
+.empleo_text{
+  left: 20%;
+  top: 2%;
+}
+
+.texto_empleo{
+  font-size: 10px;
+}
+
+/*-------------------------------------------------------------------*/

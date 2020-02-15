@@ -1,0 +1,279 @@
+/*-----------------ETIQUETAS-------------------------*/
+body{
+ background-color: #000;
+}
+
+h1{
+  position: relative;
+  color: #fff;
+  font-size: 340%;
+  text-align: center;
+  bottom: 5%;
+
+}
+
+
+h2{
+  position: relative;
+  color: #027206;
+  bottom: 4%;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 130%;
+}
+
+h3{
+  position: relative;
+  color: #027206;
+  right: 42%;
+  bottom: 4%;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 100%;
+}
+
+li{
+  color: #fff;
+  font-size: 150%;
+  font-weight: bolder;
+  margin-top: 3%;
+}
+/*---------------------------------------------------*/
+
+
+
+/*-------------DIVISION PRINCIPAL-------------------*/
+.contenedor_main{
+  background-color: #000;
+  position: relative;
+  width: 100%;
+  height: 650px;
+
+}
+/*---------------------------------------------------*/
+
+
+/*-------------DIVISION PRODUCTO #1-------------------*/
+.producto1{
+  display: inline-block;
+  border: 1px solid #027206;
+  background-color: #fff;
+  position: relative;
+  width: 30%;
+  height: 60%;
+
+  background-image: url(../Imagenes/producto1.jpg);
+  background-size: cover;
+  left: 3%;
+}
+
+.producto1_info{
+  display: inline-block;
+  border: 1px solid #027206;
+  background-color: #000;
+  position: relative;
+  width: 60%;
+  height: 60%;
+  left: 2.8%;
+  bottom: 113px;
+}
+
+/*---------------------------------------------------*/
+
+/*-------------DIVISION PRODUCTO #2-------------------*/
+.producto2{
+  display: inline-block;
+  border: 1px solid #027206;
+  background-color: #fff;
+  position: relative;
+  width: 30%;
+  height: 60%;
+
+  background-image: url(../Imagenes/producto2.jpg);
+  background-size: cover;
+  left: 3%;
+}
+
+.producto2_info{
+  display: inline-block;
+  border: 1px solid #027206;
+  background-color: #000;
+  position: relative;
+  width: 60%;
+  height: 60%;
+  left: 2.8%;
+  bottom: 113px;
+}
+
+/*---------------------------------------------------*/
+
+/*-------------DIVISION PRODUCTO #3-------------------*/
+.producto3{
+  display: inline-block;
+  border: 1px solid #027206;
+  background-color: #fff;
+  position: relative;
+  width: 30%;
+  height: 60%;
+
+  background-image: url(../Imagenes/producto3.jpg);
+  background-size: cover;
+  left: 3%;
+}
+
+.producto3_info{
+  display: inline-block;
+  border: 1px solid #027206;
+  background-color: #000;
+  position: relative;
+  width: 60%;
+  height: 60%;
+  left: 2.8%;
+  bottom: 113px;
+}
+
+/*---------------------------------------------------*/
+
+/*-------------DIVISION PRODUCTO #4-------------------*/
+.producto4{
+  display: inline-block;
+  border: 1px solid #027206;
+  background-color: #fff;
+  position: relative;
+  width: 30%;
+  height: 60%;
+
+  background-image: url(../Imagenes/producto4.png);
+  background-size: cover;
+  left: 3%;
+}
+
+.producto4_info{
+  display: inline-block;
+  border: 1px solid #027206;
+  background-color: #000;
+  position: relative;
+  width: 60%;
+  height: 60%;
+  left: 2.8%;
+  bottom: 113px;
+}
+
+/*---------------------------------------------------*/
+
+/*------------------ETIQUETAS--------------------------*/
+.piedepag hr{
+  position: relative;
+  color: #fff;
+  width: 90%;
+}
+
+.piedepag li{
+  margin-top: 15%;
+  position: relative;
+  color: #0C850C;
+  font-size: 90%;
+}
+
+.piedepag p{
+  position: relative;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.piedepag a{
+  text-decoration: none;
+  color: #027206;
+}
+/*-------------------------------------------------------------------*/
+
+
+
+/*---------------PIE DE PÁGINA---------------------------------*/
+.piedepag{
+  border-top: 1px groove #0C850C;
+  border-bottom: 1px groove #0C850C;
+  position: relative;
+  top: 1500px;
+  right: .57%;
+  background-color: #2D2C2C;
+  width: 101.2%;
+  height: 400px;
+}
+
+
+/*------------------DIVISION PRODUCTOS----------------------------*/
+.productos_div{
+  display: inline-block;
+  position: relative;
+  bottom: 10%;
+  left: 1.5%;
+  width: 25%;
+  height: 370px;
+  background-color: #2D2C2C;
+}
+
+.productos_div li{
+  right: 5%;
+}
+
+.hr1{
+  right: 1%;
+}
+
+.productos_text{
+ left: 30%;
+ top: 2%;
+}
+/*-------------------------------------------------------------------*/
+
+
+/*------------------DIVISION HORARIOS----------------------------*/
+
+.horarios_div{
+  display: inline-block;
+  position: relative;
+  bottom: 24%;
+  left: 13%;
+  width: 25%;
+  height: 370px;
+  background-color: #2D2C2C;
+}
+
+.horarios_div li{
+  right: 5%;
+}
+
+.horarios_text{
+  left: 30%;
+  top: 2%;
+}
+
+/*-------------------------------------------------------------------*/
+
+/*------------------DIVISION TRABAJO----------------------------*/
+.empleo_div{
+  display: inline-block;
+  position: relative;
+  top: 4%;
+  left: 23%;
+  width: 25%;
+  height: 370px;
+  background-color: #2D2C2C;
+}
+
+.empleo_div li{
+  right: 6%;
+}
+
+.empleo_text{
+  left: 20%;
+  top: 2%;
+}
+
+.texto_empleo{
+  font-size: 10px;
+}
+
+/*-------------------------------------------------------------------*/

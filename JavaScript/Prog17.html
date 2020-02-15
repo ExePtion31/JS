@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      var v1;
+      function abre()
+      {
+        v1=window.open("Prog2.html","v","status=yes","resizable=yes");
+        v1.status="Ventana creada para publicidad";
+        status="Ventana Estandar del Navegador";
+      }
+
+      function cierra()
+      {
+        v1.close();
+      }
+
+    </script>
+  </head>
+  <body onload=abre();>
+    <input type="button" value="Cerrar" onclick="cierra();">
+  </body>
+</html>

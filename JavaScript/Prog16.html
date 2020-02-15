@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script type="text/javascript">
+      function opt(valor)
+      {
+        var cadena;
+        switch(valor)
+        {
+          case 1:
+          cadena="uno";
+          location.href="Prog1.html";
+          break;
+
+          case 2:
+          cadena="dos";
+          location.href="Prog2.html";
+          break;
+
+          case 3:
+          cadena="tres";
+          location.href="Prog3.html";
+          break;
+
+          case 4:
+          cadena="cuatro";
+          location.href="Prog4.html";
+          break;
+        }
+        alert("Vinculo "+cadena);
+      }
+    </script>
+    <meta charset="utf-8">
+    <title>Funciones Parámetros</title>
+  </head>
+  <body>
+    <a href=""onmouseover=opt(1)>Uno</a>
+    <a href=""onmouseover=opt(2)>Dos</a>
+    <a href=""onmouseover=opt(3)>Tres</a>
+    <a href=""onmouseover=opt(4)>Cuatro</a>
+  </body>
+</html>

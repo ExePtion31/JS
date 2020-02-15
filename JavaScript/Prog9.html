@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Página 9</title>
+     <script type="text/javascript">
+       function ver(cedad)
+       {
+         var edad=parseInt(cedad.value);
+
+         if(edad<=18){
+           alert=("Joven");
+         }
+          else
+         {
+          if(edad>=65)
+            alert("3ra Edad");
+          else
+           alert("Normal");
+         }
+       }
+     </script>
+  </head>
+  <body>
+    Edad:
+    <input type="text" name="cedad" size="20" id="Hola" onblur="ver(Hola)" >
+  </body>
+</html>

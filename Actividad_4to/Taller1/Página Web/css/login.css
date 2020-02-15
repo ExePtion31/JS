@@ -1,0 +1,118 @@
+body{
+  background-color: #000;
+}
+
+.contenedormain{
+  background-color: #28272a;
+  position: absolute;
+  border-style: double;
+  border-color: #027206;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 300px;
+  height: 350px;
+
+
+}
+
+.text_form{
+  position: relative;
+  left: 85px;
+  bottom: 10px;
+  color: #027206;
+
+}
+
+hr{
+  position: relative;
+  bottom: 20px;
+}
+
+.dig_usuario{
+  position: relative;
+  left: 90px;
+  bottom: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.caja_usuario{
+  position: relative;
+  background-color: #28272a;
+  color: #b8b5b5;
+  width: 250px;
+  height: 30px;
+  left: 22px;
+  bottom: 12px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: #fff;
+  font-size: 20px;
+}
+
+.dig_contra{
+  position: relative;
+  left: 75px;
+  bottom: 1px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.caja_contraseña{
+  position: relative;
+  width: 250px;
+  height: 30px;
+  left: 22px;
+  bottom: -6px;
+  background-color: #28272a;
+  color: #b8b5b5;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: #fff;
+  font-size: 20px;
+}
+
+.btn_login{
+  background-color: #027206;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: inherit;
+  position: relative;
+  left: 25px;
+  top: 40px;
+  width: 250px;
+  height: 30px;
+}
+
+.btn_login:hover{
+  background-color: #1AB601;
+}
+
+.caja_check{
+  position: relative;
+  top: 80px;
+  right: 233px;
+  background: #9a9a9a;
+
+}
+
+.recor_contra{
+  position: relative;
+  top: 56px;
+  left: 43px;
+  color: #9a9a9a;
+}
+
+.olv_contra{
+  position: relative;
+  top: 65px;
+  left: 20px;
+}
+
+
+/*-----------------------------------------------------*/

@@ -1,0 +1,73 @@
+body{
+  background-color: #BC7F15;
+  overflow: hidden;
+}
+
+h1{
+  text-align: center;
+  font-family: Shadows Into Light;
+  text-shadow: 3px 3px #fff;
+  font-size: 50px;
+}
+
+hr{
+  height: 2px;
+  background-color: #fff;
+}
+
+h2{
+  font-family: Righteous;
+  color: #fff;
+  text-shadow: 1px 7px #33250C;
+}
+
+.informacion1{
+  position: relative;
+  left: 25%;
+  bottom: 200px;
+  width: 390px;
+  height: 350px;
+  border: 2px #000 solid;
+  border-style: double;
+}
+
+.titulo{
+  position: relative;
+  left: 57%;
+  bottom: 630px;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 1px 7px #33250C;
+  font-family: Righteous;
+}
+
+p{
+  position: relative;
+  left: 57%;
+  bottom: 650px;
+  font-size: 30px;
+}
+
+.Preciop{
+  position: relative;
+  left: 57%;
+  bottom: 650px;
+}
+
+
+select{
+  width: 18%;
+  height: 170px;
+  font-size: 25px;
+  font-family: Righteous;
+  background-color: #BC7F15;
+  border: none !important;
+  overflow: hidden;
+}
+
+
+
+
+/*FONTS*/
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Righteous', cursive;

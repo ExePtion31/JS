@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/MenuFormulario.css">
+    <link rel="stylesheet" href="css/Formulario.css">
+    <script type="text/javascript" src="js/fechahora.js"></script>
+    <script type="text/javascript" src="js/Publicidad.js"></script>
+    <script type="text/javascript" src="js/Multiples.js"></script>
+    <script type="text/javascript" src="js/Colores.js"></script>
+    <script type="text/javascript" src="js/Formulario.js"></script>
+    <title></title>
+  </head>
+  <body onload="mueveReloj()">
+   <div class="contenedorprincipal">
+    <div class="icono">
+      <a href="menu.html"><img src="imagenes/icon.png" alt="" width="100%"></a>
+    </div>
+    <hr class="hr1">
+    <div class="herramientas">
+      <div class="Panel_reloj" id="textoreloj">
+      </div>
+      <div class="colores">
+        <input type="radio" name="F" onclick=texto("White");><label>BLANCO</label><br><br>
+        <input type="radio" name="F" onclick=texto("#380ABB");><label>MORADO</label><br><br>
+        <input type="radio" name="F" onclick=texto("#01AFCA");><label>AQUA</label>
+      </div>
+      <div class="botones_menu">
+        <input type="button" name="" value="Inicio" onclick="location.href='menu.html'"><br>
+        <input type="button" name="" value="Formulario" onclick="location.href='Formulario.html'"><br>
+        <input type="button" name="" value="Imágenes"><br>
+        <input type="button" name="" value="Proximamente"><br>
+      </div>
+      <div class="fecha_ac" id="fecha_actual">
+      </div>
+    </div>
+    <hr class="hr3">
+    <hr class="hr4">
+   </div>
+
+
+
+
+   <!---------------------------FORMURLARIO----------------------------------->
+   <form name="formulario" method="post" action="Prog2.html">
+     <div class="contenedor_principal">
+       <div class="div_titulo">
+        <h2 class="titulo">Formulario</h2>
+       </div>
+
+       <div class="contenedor">
+         <form>
+          <div class="div_nombre">
+            <label for="nombre" class="nombre2">Nombre:</label>
+          </div>
+          <div class="div_propnombres">
+            <input type="text" id="nombre" name="nombre" class="nombre">
+            <label for="f_nac" class="f_nac2">F.Nac:</label>
+            <input type="text" id="f_nac" value="" class="f_nac">
+            <label for="nui" class="nui2">NUI:</label>
+            <input type="text" id="nui" value="" class="nui"><br>
+          </div>
+          <div class="div_apellido">
+            <label for="apellido" class="apellido2">Apellido:</label>
+          </div>
+          <div class="div_propapellidos">
+            <input type="text" id="apellido" value="" class="apellido"><br>
+          </div>
+          <div class="div_direccion">
+            <label for="direccion" class="">Dirección:</label>
+          </div>
+          <div class="div_propdireccion">
+            <input type="text" id="direccion" value=""class="direccion2"><br>
+          </div>
+          <div class="div_cogpostal">
+            <label for="cog_postal" class="text_cogpostal">Codigo Postal:</label>
+          </div>
+          <div class="div_propcodpostal">
+            <input type="text" id="cog_postal" value=""class="cogpostal"><br>
+          </div>
+          <div class="div_ciudad">
+            <label for="ciudad" class="">Ciudad:</label>
+          </div>
+          <div class="div_propciudad">
+            <input type="text" id="ciudad" value=""class="nciudad">
+            <label for="c_telef" class="telef2">Teléfono:</label>
+            <input type="text" id="c_telef" value="" class="telef"><br>
+          </div>
+          <div class="div_sexo">
+            <label for="" class="sexo">Sexo:</label>
+          </div>
+          <div class="div_propsexo">
+            <select class="clasesexo">
+              <option value=""></option>
+              <option value="">Hombre</option>
+              <option value="">Mujer</option>
+            </select><br>
+          </div>
+          <div class="div_comentarios">
+            <label for="" class="comentarios">Comentarios:</label>
+          </div>
+          <div class="div_propcomentarios">
+            <textarea name="" rows="10" cols="40" class="coment" id="div_comentarios"></textarea>
+          </div>
+          <div class="div_pulseaqui">
+            <label for="" class="pulse_aqui"><b>Pulse Aquí:</b></label>
+          </div>
+          <div class="div_proppulseaqui">
+            <input type="button" value="Enviar Datos" class="boton_enviar" onclick="validar();">
+            <input type="reset" value="Borrar Datos" class="boton_borrar">
+          </div>
+         </form>
+       </div>
+      </div>
+   </form>
+  </body>
+</html>

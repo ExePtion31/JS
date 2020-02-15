@@ -1,0 +1,29 @@
+body{
+  width: 100%;
+  background-image: url(../imagenes/publicidad.jpg);
+  background-size: cover;
+}
+
+input{
+  background-image: url(../imagenes/textura1.jpg);
+  background-size: cover;
+  position: relative;
+  width: 10%;
+  height: 40px;
+  top: 700px;
+  left: 36%;
+  border-style: groove;
+  border-color: #AC18AA;
+  color: #fff;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 25px;
+  box-shadow: 4px 0px 4px #461045;
+  border-radius: 0px 20px 20px 0px;
+  -webkit-transition: width 0.6s;
+}
+
+input:hover{
+  width: 20%;
+  border-bottom: 3px solid #461045;
+}

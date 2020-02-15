@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Página 10</title>
+    <script type="text/javascript">
+      function espe(cespe)
+      {
+        var tipo=cespe.value;
+        switch(tipo)
+        {
+          case "humano":
+          alert("Eres un Humano");
+          break;
+
+          case "planta":
+          alert("Eres un Vegetal");
+          break;
+
+          case "animal":
+          alert("Eres del Reino Animal");
+          break;
+
+          case "daniel":
+          alert("Eres un Marica");
+          break;
+
+          default:
+          alert("Especie Desconocina");
+          break;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    ESPECIE:
+    <input type="text" name="cespe" size="20" id="cajita" onblur=espe(cajita);>
+  </body>
+</html>

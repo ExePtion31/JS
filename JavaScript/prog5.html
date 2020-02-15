@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Manejo de variables</title>
+    <script type="text/javascript">
+     var global=100;
+     function uno()
+     {
+       var local_uno=1;
+       alert("Global: "+global+" Local: "+local_uno)
+       dos();
+     }
+     function dos()
+     {
+       var local_dos=2;
+       alert("Global: "+global+" Local: "+local_dos)
+     }
+    </script>
+  </head>
+  <body onload=uno();>
+  </body>
+</html>

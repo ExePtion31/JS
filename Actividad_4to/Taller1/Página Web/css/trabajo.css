@@ -1,0 +1,497 @@
+body{
+  background-color: #000;
+}
+
+.contenedor_principal{
+  position: absolute;
+  width: 630px;
+  height: 500px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  top: 50%;
+  left:50%;
+  opacity: 0.9;
+  background-color: #000;
+}
+
+.div_titulo{
+  border-style: groove;
+  border-color: #027206;
+  text-align: center;
+  width: 609px;
+  position: relative;
+  margin: auto;
+  top: 40px;
+
+}
+
+.titulo{
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  color: #fff;
+}
+
+
+
+
+.div_nombre{
+  display: inline-block;
+  border-style: groove;
+  border-color: #027206;
+  color: #fff;
+  width: 77px;
+  padding: 5px;
+  margin-top: 1px;
+  margin-left: 1px;
+
+}
+
+.div_propnombres{
+  display: inline-block;
+  width:499px;
+  height: 23.5px;
+  border-style: groove;
+  border-color: #027206;
+  padding:2px;
+  position: relative;
+  bottom: 1px;
+  right: 2px;
+  margin-top: 1px;
+}
+
+
+.nombre{
+  display: inline-block;
+  border-style: groove;
+  position:relative;
+  left: 1px;
+  width: 85px;
+  color: #027206;
+  border-color: #027206;
+}
+
+
+.f_nac{
+  display: inline-block;
+  width: 30px;
+  border-style: groove;
+  position:relative;
+  left: 115px;
+  color: #027206;
+  border-color: #027206;
+}
+
+.f_nac2{
+  display: inline-block;
+  width: 30px;
+  position:relative;
+  left: 100px;
+  color: #fff;
+}
+
+.nui{
+  display: inline-block;
+  width: 30px;
+  border-style: groove;
+  position:relative;
+  left: 180px;
+  color: #027206;
+  border-color: #027206;
+}
+
+.nui2{
+  display: inline-block;
+  width: 30px;
+  position:relative;
+  left: 165px;
+  color: #fff;
+}
+
+.div_apellido{
+  display: inline-block;
+  border-style: groove;
+  border-color: #027206;
+  width: 77px;
+  padding: 5px;
+  margin-top: 1px;
+  margin-left: 1px;
+  color: #fff;
+}
+
+.div_propapellidos{
+  display: inline-block;
+  width:498px;
+  height: 23.5px;
+  border-style: groove;
+  border-color: #027206;
+  padding:2px;
+  position: relative;
+  bottom: 1px;
+  right: 2px;
+}
+
+.apellido{
+  position: relative;
+  width: 85px;
+  left: 1px;
+  color: #027206;
+  border-color: #027206;
+}
+
+
+.div_direccion{
+  display: inline-block;
+  border-style: groove;
+  border-color: #027206;
+  color: #fff;
+  width: 76px;
+  padding: 5px;
+  margin: 1px
+}
+
+.div_propdireccion{
+  display: inline-block;
+  width:497px;
+  border-style: groove;
+  border-color: #027206;
+  padding:3px;
+  position: relative;
+  right: 3px;
+  margin-top: 1px;
+}
+
+.direccion2{
+  position: relative;
+  left: 1px;
+  width: 85px;
+  border-color:#027206;
+  color: #027206;
+}
+
+.div_cogpostal{
+  display: inline-block;
+  font-size: 13px;
+  border-style: groove;
+  border-color: #027206;
+  color: #fff;
+  width: 76px;
+  padding: 5px;
+  margin: 1px
+}
+
+.div_propcodpostal{
+  display: inline-block;
+  width:499px;
+  border-style: groove;
+  border-color: #027206;
+  padding:2px;
+  position: relative;
+  right: 3px;
+  margin-top: 1px;
+}
+
+.text_cogpostal{
+  font-size: 12px;
+}
+
+.cogpostal{
+  position: relative;
+  width: 85px;
+  left: 1px;
+  color: #027206;
+  border-color: #027206;
+}
+
+.div_ciudad{
+  display: inline-block;
+  border-style: groove;
+  border-color: #027206;
+  color: #fff;
+  width: 76px;
+  padding: 5px;
+  margin: 1px
+}
+
+.div_propciudad{
+  display: inline-block;
+  width:499px;
+  border-style: groove;
+  border-color: #027206;
+  color: #fff;
+  padding:2px;
+  position: relative;
+  right: 3px;
+  bottom: 1px;
+}
+
+.nciudad{
+  width: 87px;
+  color: #027206;
+  border-color:#027206;
+}
+
+.telef, .telef2{
+  position: relative;
+  left: 30px;
+  border-color:#027206;
+}
+
+.telef{
+  width: 80px;
+}
+
+.div_sexo{
+  display: inline-block;
+  border-style: groove;
+  border-color: #027206;
+  color: #fff;
+  width: 76px;
+  padding: 5px;
+  margin: 1px
+}
+
+
+.div_propsexo{
+  display: inline-block;
+  width:499px;
+  height: 24px;
+  border-style: groove;
+  border-color: #027206;
+  padding:2px;
+  position: relative;
+  right: 3px;
+  bottom: 1px;
+}
+
+.clasesexo{
+  width: 93px;
+  height: 23px;
+  border-color:#027206;
+  color:#027206;
+}
+
+.div_comentarios{
+  display: inline-block;
+  position: relative;
+  border-style: groove;
+  border-color: #027206;
+  color: #fff;
+  width: 85px;
+  height: 84px;
+  margin-left: 1px;
+  bottom: 61px;
+}
+
+.div_propcomentarios{
+  display: inline-block;
+  position: relative;
+  width:500px;
+  height: 80px;
+  border-style: groove;
+  border-color: #027206;
+  padding:2px;
+  top: 2px;
+  right: 2px;
+}
+
+.coment{
+  width: 250px;
+  height: 70px;
+  border-color:#027206;
+}
+
+.comentarios{
+  position: relative;
+  top: 30px;
+  font-size: 15px;
+}
+
+.div_pulseaqui{
+  display: inline-block;
+  position: relative;
+  width: 84px;
+  height: 30px;
+  border-style: groove;
+  border-color: #027206;
+  color: #fff;
+  margin-left: 1px;
+  margin-top: 1px;
+  bottom: 65px;
+}
+
+.pulse_aqui{
+  position: relative;
+  top: 5px;
+}
+
+.div_proppulseaqui{
+  display: inline-block;
+  width:500px;
+  height: 26px;
+  border-style: groove;
+  border-color: #027206;
+  padding:2px;
+  position: relative;
+  right: 2px;
+  bottom: 59px;
+}
+
+.boton_borrar, .boton_enviar{
+  position: relative;
+  width: 103px;
+  height: 28px;
+  left: 130px;
+}
+
+.contenedor{
+  position: relative;
+  margin: auto;
+  border-style: groove;
+  border-color: #027206;
+  top: 40px;
+  width: 607px;
+  height: 345px;
+  padding: 1px;
+}
+
+.boton_enviar{
+  background-color: #0C850C;
+  border-style: none;
+  color: #fff;
+}
+
+.boton_enviar:hover{
+  background-color: #1AB601;
+}
+
+.boton_borrar{
+  background-color: #A10404;
+  border-style: none;
+  color: #fff;
+}
+
+.boton_borrar:hover{
+  background-color: #F90404;
+}
+
+
+
+
+
+/*----------PIE DE PAGINA----------------*/
+/*------------------ETIQUETAS--------------------------*/
+hr{
+  position: relative;
+  color: #fff;
+  width: 90%;
+}
+
+li{
+  margin-top: 15%;
+  position: relative;
+  color: #0C850C;
+}
+
+p{
+  position: relative;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #027206;
+}
+/*-------------------------------------------------------------------*/
+
+
+
+/*---------------PIE DE PÁGINA---------------------------------*/
+.piedepag{
+  border-top: 1px groove #0C850C;
+  border-bottom: 1px groove #0C850C;
+  position: relative;
+  top: 600px;
+  right: .57%;
+  background-color: #2D2C2C;
+  width: 101.2%;
+  height: 400px;
+}
+
+
+/*------------------DIVISION PRODUCTOS----------------------------*/
+.productos_div{
+  display: inline-block;
+  position: relative;
+  top: 3%;
+  left: 1.5%;
+  width: 25%;
+  height: 370px;
+  background-color: #2D2C2C;
+}
+
+.productos_div li{
+  right: 5%;
+}
+
+.hr1{
+  right: 1%;
+}
+
+.productos_text{
+ left: 30%;
+ top: 2%;
+}
+/*-------------------------------------------------------------------*/
+
+
+/*------------------DIVISION HORARIOS----------------------------*/
+
+.horarios_div{
+  display: inline-block;
+  position: relative;
+  bottom: 12%;
+  left: 13%;
+  width: 25%;
+  height: 370px;
+  background-color: #2D2C2C;
+}
+
+.horarios_div li{
+  right: 5%;
+}
+
+.horarios_text{
+  left: 30%;
+  top: 2%;
+}
+
+/*-------------------------------------------------------------------*/
+
+/*------------------DIVISION TRABAJO----------------------------*/
+.empleo_div{
+  display: inline-block;
+  position: relative;
+  bottom: 3%;
+  left: 23%;
+  width: 25%;
+  height: 370px;
+  background-color: #2D2C2C;
+}
+
+.empleo_div li{
+  right: 6%;
+}
+
+.empleo_text{
+  left: 20%;
+  top: 2%;
+}
+
+.texto_empleo{
+  font-size: 10px;
+}
+
+/*-------------------------------------------------------------------*/

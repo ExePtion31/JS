@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function muestra(cnombre)
+      {
+        var nombre=cnombre.value;
+        alert("Hola "+ nombre);
+        cnombre.value="";
+        cnombre.focus();
+      }
+    </script>
+  </head>
+  <body>
+    Nombre: <input type="text" name="cnombre"  size="20" id="Hola">
+    <input type="button" value="Ver" onclick="muestra(Hola);">
+  </body>
+</html>

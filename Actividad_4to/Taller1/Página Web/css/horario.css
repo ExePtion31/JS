@@ -1,0 +1,165 @@
+.principal{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 380px;
+  background-color: #2D2C2C;
+}
+
+h1{
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+div div{
+  margin-left: 3px;
+  margin-top: 12px;
+  padding: 3px;
+  display: inline-block;
+  position: relative;
+  left: .5%;
+  border: 1px solid #0C850C;
+  width: 13%;
+  height: 40px;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+}
+
+/* PIE DE PAGINA */
+
+body{
+  background-color: #000;
+}
+
+.fondo{
+  position: relative;
+  bottom: 20px;
+  right: .57%;
+  background-image: url(../Imagenes/fondo.jpg);
+  background-size: cover;
+  width: 101.2%;
+  height: 900px;
+}
+
+/*------------------ETIQUETAS--------------------------*/
+hr{
+  position: relative;
+  color: #fff;
+  width: 90%;
+}
+
+li{
+  font-size: 16px;
+  margin-top: 15%;
+  position: relative;
+  color: #fff;
+}
+
+p{
+  position: relative;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #027206;
+}
+/*-------------------------------------------------------------------*/
+
+
+.productos_div, .horarios_div, .empleo_div{
+  border: 0px;
+}
+
+/*---------------PIE DE PÁGINA---------------------------------*/
+.piedepag{
+  border-top: 1px groove #0C850C;
+  border-bottom: 1px groove #0C850C;
+  position: relative;
+  top: 30px;
+  right: .57%;
+  background-color: #2D2C2C;
+  width: 101.2%;
+  height: 400px;
+}
+
+
+/*------------------DIVISION PRODUCTOS----------------------------*/
+.productos_div{
+  display: inline-block;
+  position: relative;
+  bottom: .5%;
+  left: 1%;
+  width: 25%;
+  height: 370px;
+  background-color: #2D2C2C;
+}
+
+.productos_div li{
+  right: 18%;
+}
+
+.hr1{
+  right: 1%;
+}
+
+.productos_text{
+ right: 25%;
+ top: 2%;
+}
+/*-------------------------------------------------------------------*/
+
+
+/*------------------DIVISION HORARIO----------------------------*/
+
+.horarios_div{
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  bottom: 17%;
+  left: 10%;
+  width: 25%;
+  height: 370px;
+  background-color: #2D2C2C;
+}
+
+
+
+.horarios_text{
+  left: 4%;
+  top: 2%;
+}
+
+
+/*-------------------------------------------------------------------*/
+
+/*------------------DIVISION TRABAJO----------------------------*/
+.empleo_div{
+  display: inline-block;
+  position: relative;
+  left: 21%;
+  width: 25%;
+  height: 370px;
+  background-color: #2D2C2C;
+}
+
+.empleo_div li{
+  color: #0C850C;
+  right: 20%;
+}
+
+.empleo_text{
+  left: 3%;
+  top: 2%;
+}
+
+.texto_empleo{
+  font-size: 15px;
+}
+/*-------------------------------------------------------------------*/

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/menu.css">
+    <script type="text/javascript" src="js/fechahora.js"></script>
+    <script type="text/javascript" src="js/Publicidad.js"></script>
+    <script type="text/javascript" src="js/Multiples.js"></script>
+    <script type="text/javascript" src="js/Colores.js"></script>
+    <script type="text/javascript" src="js/Fondos.js"></script>
+    <title></title>
+  </head>
+  <body onload="multiples()">
+   <div class="contenedorprincipal">
+    <div class="icono">
+      <a href="#"><img src="imagenes/icon.png" alt="" width="100%"></a>
+    </div>
+    <hr class="hr1" id="hr12">
+    <div class="herramientas">
+      <div class="Panel_reloj" id="textoreloj">
+      </div>
+      <div class="colores">
+        <input type="radio" name="F" onclick=texto("Black");><label>NEGRO</label><br><br>
+        <input type="radio" name="F" onclick=texto("#9E0291");><label>VIOLETA</label><br><br>
+        <input type="radio" name="F" onclick=texto("Yellow");><label>AMARILLO</label>
+      </div>
+      <div class="botones_menu">
+        <input type="button" name="" value="Inicio" onclick="location.href='menu.html'"><br>
+        <input type="button" name="" value="Formulario" onclick="location.href='Formulario.html'"><br>
+        <input type="button" name="" value="Imágenes"><br>
+        <input type="button" name="" value="Proximamente"><br>
+      </div>
+      <div class="fecha_ac" id="fecha_actual">
+      </div>
+    </div>
+    <hr class="hr3">
+    <hr class="hr4">
+   </div>
+  </body>
+</html>

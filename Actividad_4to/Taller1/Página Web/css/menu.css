@@ -1,0 +1,148 @@
+/*----------------------------ETIQUETAS----------------------------*/
+body{
+  background-color: #000;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+div{
+ display: inline-block;
+}
+
+a:hover{
+  color: #0C850C;
+}
+
+
+/*---------------------------------CONTENEDOR MENÚ----------------------------*/
+.menuprinc{
+  position: relative;
+  background-image: url(../Imagenes/texturamenu.png);
+  width: 101%;
+  height: 50px;
+  bottom: 5px;
+  right: .5%;
+}
+
+
+/*---------------------------------ICONO MENÚ----------------------------*/
+.icono{
+  position: relative;
+  right: 17%;
+  top: 3px;
+  width: 4%;
+  height: 4%;
+}
+
+
+/*---------------------------------PRODUCTOS MENÚ----------------------------*/
+.productos_bot{
+  position: relative;
+  right: 16%;
+  width: 10%;
+  height: 28px;
+  background-image: url(../Imagenes/texturamenu.png);
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: 17px;
+  border: 0px;
+  bottom: 10px;
+}
+
+
+.productos_bot:hover{
+  border-bottom: 5px solid #0C850C;
+  color: #0C850C;
+}
+
+
+/*---------------------------------HORARIO MENÚ----------------------------*/
+.horarios_bot{
+  background-image: url(../Imagenes/texturamenu.png);
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: 17px;
+  border: 0px;
+  position: relative;
+  width: 14%;
+  height: 28px;
+  right: 16%;
+  bottom: 10px;
+}
+
+.horarios_bot:hover{
+  border-bottom: 5px solid #0C850C;
+  color: #0C850C;
+}
+
+
+/*---------------------------------EMPLEO MENÚ----------------------------*/
+.empleo_bot{
+  background-image: url(../Imagenes/texturamenu.png);
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: 17px;
+  border: 0px;
+  position: relative;
+  width: 14%;
+  height: 28px;
+  right: 16%;
+  bottom: 10px;
+}
+
+.empleo_bot:hover{
+  border-bottom: 5px solid #0C850C;
+  color: #0C850C;
+}
+
+
+/*---------------------------------ENCUESTA MENÚ----------------------------*/
+.encuesta_bot{
+  background-image: url(../Imagenes/texturamenu.png);
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: 17px;
+  border: 0px;
+  position: relative;
+  width: 8%;
+  height: 28px;
+  bottom: 10px;
+  right: 16%;
+}
+
+.encuesta_bot:hover{
+  border-bottom: 5px solid #0C850C;
+  color: #0C850C;
+}
+
+
+/*---------------------------------REGISTRO MENÚ----------------------------*/
+.registro_bot{
+  background-color: #0C850C;
+  font-family: fantasy;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 17px;
+  border: 0px;
+  position: relative;
+  width: 14%;
+  height: 45px;
+  left: 17.1%;
+  bottom: 24.5px;
+  border-radius: 5px;
+}
+
+.registro_bot:hover{
+  background-color: #1AB601;
+}
+
+.texto_registro{
+  position: relative;
+  top: 30%;
+}
